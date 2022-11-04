@@ -6,7 +6,7 @@ Output the raw SQL used by Liquibase when running changelogSyncToTag
 ```yaml
 steps:
 - uses: actions/checkout@v3
-- uses: liquibase-github-actions/changelog-sync-to-tag-sql@v4.17.0
+- uses: liquibase-github-actions/changelog-sync-to-tag-sql@v4.17.1
   with:
     # The root changelog file
     # string
@@ -85,7 +85,7 @@ The liquibase changelog sync to tag sql action accepts all valid liquibase globa
 ```yaml
 steps:
   - uses: actions/checkout@v3
-  - uses: liquibase-github-actions/changelog-sync-to-tag-sql@v4.17.0
+  - uses: liquibase-github-actions/changelog-sync-to-tag-sql@v4.17.1
     with:
       changelogFile: ""
       tag: ""
